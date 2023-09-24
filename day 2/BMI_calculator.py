@@ -1,6 +1,6 @@
 weight = input("Digit your weight: ")
 height = input("Digit your height: ")
 
-BMI = int(weight)/(int(height)**2)
+BMI = float(weight)/(float(height)**2)
 
-print("Your BMI is", str(BMI))
+print("Your BMI is", float(BMI))
